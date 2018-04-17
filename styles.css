@@ -28,17 +28,21 @@ body {
 
 @-webkit-keyframes say-hello {
     0%   { bottom: -50%; }
+    25%   { bottom: -50%; }
     100% { bottom: 0%; }
 }
 @-moz-keyframes say-hello {
     0%   { bottom: -50%; }
+    25%   { bottom: -50%; }
     100% { bottom: 0%; }
 }
 @-o-keyframes say-hello {
     0%   { bottom: -50%; }
+    25%   { bottom: -50%; }
     100% { bottom: 0%; }
 }
 @keyframes say-hello {
     0%   { bottom: -50%; }
+    25%   { bottom: -50%; }
     100% { bottom: 0%; }
 }
