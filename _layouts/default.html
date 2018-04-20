@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }} | Adam Bell</title>
+        {% if page.no_index %}
+        <meta name="robots" content="noindex">
+        {% endif %}
         <meta name="author" content="Adam Bell">
         <meta name="description" content="{{ page.description | append:' Created by Adam Bell, web developer from Leeds, UK.' }}">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" 
@@ -39,8 +42,9 @@
             
             <footer class="mastfoot mt-auto">
                 <div class="inner">
-                    <p>&copy; Adam Bell 2018. Leeds, UK.</p>
+                    <p>&copy; Adam Bell 2018. Leeds, UK. <a href="/contact.html" alt="contact me">Contact</a>.</p>
                 </div>
+                
             </footer>
 
             {% if page.cookies %}          
