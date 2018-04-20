@@ -1,0 +1,10 @@
+<script>
+    function CookiebotCallback_OnAccept() {
+        if (Cookiebot.consent.preferences)
+            dataLayer.push({'event':'cookieconsent_preferences'});
+        if (Cookiebot.consent.statistics)
+            dataLayer.push({'event':'cookieconsent_statistics'});
+        if (Cookiebot.consent.marketing)
+            dataLayer.push({'event':'cookieconsent_marketing'});
+    }
+</script>

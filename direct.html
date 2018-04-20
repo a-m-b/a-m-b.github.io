@@ -1,37 +1,12 @@
-<html>
-    <head>
-        <title>Hello!</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <script id="Cookiebot" 
-            src="https://consent.cookiebot.com/uc.js" 
-            data-cbid="e2c0d67d-d49c-462f-b81c-0bd8f18c6ef8" 
-            type="text/javascript" async></script>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-KBW65QS');</script>
-        <!-- End Google Tag Manager -->
-    </head>
-    <body>
-        <h1>Example page referencing the cookiebot script within the page</h1>
+---
+layout: default
+title: Cookiebot Direct
+description: Example usage of Cookiebot where the script is inserted directly into the header.
+navigation_weight: 3
+cookies: 1
+cookiebot: 1
+---
 
-        Cookies <a href="direct-cookies.html">nom nom</a>
+<h1>Example page referencing the cookiebot script within the page</h1>
 
-        <div id="cookie-moster">
-            <span id="say-hi"></span>
-        </div>
-        
-        <script>
-            function CookiebotCallback_OnAccept() {
-                if (Cookiebot.consent.preferences)
-                    dataLayer.push({'event':'cookieconsent_preferences'});
-                if (Cookiebot.consent.statistics)
-                    dataLayer.push({'event':'cookieconsent_statistics'});
-                if (Cookiebot.consent.marketing)
-                    dataLayer.push({'event':'cookieconsent_marketing'});
-            }
-        </script>
-    </body>
-</html>
+Cookies <a href="direct-cookies.html">nom nom</a>
