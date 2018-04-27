@@ -2,4 +2,4 @@
 
 Just a playground, nothing to see here...
 
-https://a-m-b.github.io/
+http://www.adambell.co.uk/
