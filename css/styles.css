@@ -130,6 +130,13 @@ body[bg] .mastfoot {
 }
 
 /*
+ * Contact
+ */
+.alternative-contact {
+  padding-top: 1rem;
+}
+
+/*
  * cookie-moster
  */
 #cookie-moster {
