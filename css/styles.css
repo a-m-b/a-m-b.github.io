@@ -34,7 +34,7 @@ a:hover {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 45em;
 }
 
 /*
@@ -99,6 +99,37 @@ a:hover {
 }
 
 /*
+ * Leeds override styles
+ */
+body[bg] {
+  color: #fff !important;
+  background: rgba(0, 0, 0, .5) url(../images/leeds-night.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body[bg] a,
+body[bg] a:focus,
+body[bg] a:hover {
+  color: #fff !important;
+}
+
+body[bg] .nav-masthead .active {
+  border-bottom-color: #fff !important;
+}
+
+body[bg] .cover {
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+body[bg] .mastfoot {
+  color: #fff;
+}
+
+/*
  * cookie-moster
  */
 #cookie-moster {
@@ -118,7 +149,7 @@ a:hover {
     width: 50%;
     height: 50%;
     background: url(../images/cookies.jpg) no-repeat;
-    background-size: 60%;
+    background-size: 58%;
     background-position: bottom;
     -webkit-animation: say-hello 5s forwards; /* Safari 4+ */
     -moz-animation: say-hello 5s forwards; /* Fx 5+ */

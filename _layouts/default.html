@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }} | Adam Bell</title>
@@ -16,11 +16,11 @@
         {% endif %}
         {% include gtm.html %}
     </head>
-    <body>
+    <body {% if page.show_background %}bg{% endif %}>
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="masthead mb-auto">
                 <div class="inner">
-                    <h3 class="masthead-brand">Playground</h3>
+                    <h3 class="masthead-brand">Adam's Playground</h3>
                     <nav class="nav nav-masthead justify-content-center">
                         {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} 
                         {% for item in navigation_pages %} 
