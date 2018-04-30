@@ -130,6 +130,28 @@ body[bg] .mastfoot {
 }
 
 /*
+* Cookiebot overrides
+*/
+#CybotCookiebotDialogPoweredbyLink {
+    display: none !important;
+}
+#CybotCookiebotDialogBodyContent {
+    padding-left: 12px !important;
+}
+#CybotCookiebotDialogBodyButtons {
+    padding-left: 0 !important;
+}
+#CybotCookiebotDialogDetailBodyContentCookieContainerPreference {
+    padding-bottom: 0 !important;
+}
+#CybotCookiebotDialogDetailFooter {
+    width: 254px !important;
+    height: 16px !important;
+    overflow: hidden !important;
+    float: right !important;
+}
+
+/*
  * cookie-moster
  */
 #cookie-moster {
