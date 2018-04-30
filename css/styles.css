@@ -109,9 +109,9 @@ body[bg] {
   background-size: cover;
 }
 
-body[bg] a,
-body[bg] a:focus,
-body[bg] a:hover {
+body[bg] .cover-container a,
+body[bg] .cover-container a:focus,
+body[bg] .cover-container a:hover {
   color: #fff !important;
 }
 
