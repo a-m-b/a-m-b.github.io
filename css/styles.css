@@ -137,11 +137,13 @@ body[bg] .mastfoot {
 }
 #CybotCookiebotDialogBodyContent {
     padding-left: 12px !important;
-    height: 151px !important;
 }
 #CybotCookiebotDialogBodyButtons {
     padding-left: 0 !important;
     margin-left: 0 !important;
+}
+#CybotCookiebotDialogDetailBodyContent {
+    height: 151px !important;
 }
 #CybotCookiebotDialogDetailBodyContentCookieContainerTypes {
     padding-top: 0 !important;
