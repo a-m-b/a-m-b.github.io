@@ -137,18 +137,22 @@ body[bg] .mastfoot {
 }
 #CybotCookiebotDialogBodyContent {
     padding-left: 12px !important;
+    height: 151px !important;
 }
 #CybotCookiebotDialogBodyButtons {
     padding-left: 0 !important;
     margin-left: 0 !important;
 }
+#CybotCookiebotDialogDetailBodyContentCookieContainerTypes {
+    padding-top: 0 !important;
+}
 #CybotCookiebotDialogDetailBodyContentCookieContainerTypes > a {
     padding-bottom: 0 !important;
 }
-#CybotCookiebotDialogDetailFooter {
+#CybotCookiebotDialogDetailBodyContentCookieContainerUnclassified {
     display: none !important;
 }
-#CybotCookiebotDialogDetailBodyContentCookieContainerUnclassified {
+#CybotCookiebotDialogDetailFooter {
     display: none !important;
 }
 
